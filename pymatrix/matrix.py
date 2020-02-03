@@ -144,5 +144,3 @@ class Matrix():
             ex : aMatrix * 1.2
         /!\\ multiplying a matrix by a float will lead to aproximative results"""
         return self * other
-
-help(Matrix)
