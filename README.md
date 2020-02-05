@@ -10,7 +10,7 @@ Installation
 ------------
 
 ```
-$ pip install matrixHandler
+$ pip3 install matrixHandler
 ```
 
 Example

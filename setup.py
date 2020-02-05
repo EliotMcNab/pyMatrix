@@ -10,7 +10,7 @@ CLASSIFIERS = [
 ]
 
 setup(name = "matrixHandler",
-      version = "0.1.3",
+      version = "0.1.4",
       description = "a small module which adds a Matrix class to be used as a new data type",
       long_description=open("README.md").read(),
       long_description_content_type='text/markdown',
