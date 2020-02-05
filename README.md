@@ -9,10 +9,8 @@ The code is made for Python3
 Installation
 ------------
 
-Fast Install:
-
 ```
-$ pip install pymatrix
+$ pip install matrixHandler
 ```
 
 Example

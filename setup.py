@@ -1,9 +1,6 @@
 from setuptools import setup
 from setuptools import find_packages
 
-with open("README.md", "r") as file:
-    long_description = file.read()
-
 REQUIREMENTS = []
 
 CLASSIFIERS = [
@@ -13,9 +10,10 @@ CLASSIFIERS = [
 ]
 
 setup(name = "matrixHandler",
-      version = "1.0.1",
+      version = "0.1.3",
       description = "a small module which adds a Matrix class to be used as a new data type",
-      long_description = long_description,
+      long_description=open("README.md").read(),
+      long_description_content_type='text/markdown',
       url = "https://github.com/EliotMcNab/pyMatrix.git",
       author = "Eliot McNab",
       author_email = "",

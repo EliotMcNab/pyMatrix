@@ -27,11 +27,21 @@ class Matrix():
             ex : len(aMatrix)"""
         return len(self.matrix)
 
+    def __repr__(self):
+        """displays matrice when variable is called
+            ex: aMatrice"""
+
+        strMatrix = ""
+        for y in range(len(self)-1):
+            strMatrix += str(self[y]) + "\n"
+        strMatrix += str(self[-1])
+        return strMatrix
+
     def __str__(self):
         """determines how a matrix is displayed
             ex : print(aMatrix)"""
         strMatrix = "\n"
-        for y in range(len(self.matrix)-1):
+        for y in range(len(self)-1):
             strMatrix += str(self[y]) + "\n"
         strMatrix += str(self[-1])
         return strMatrix
@@ -130,7 +140,7 @@ class Matrix():
             elif(len(self.matrix[0]) == len(other.matrix)):
                 multMatrix = Matrix([[sum([self[y][x] * other[x][i] for x in range(len(self[0]))]) for i in range(len(other[0]))]for y in range(len(self))])
 
-                return multMatrix
+            return multMatrix
 
         except AttributeError:
             raise ValueError("matrix can only be multipled by other matrix, int or float")
