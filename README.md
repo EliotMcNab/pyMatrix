@@ -2,7 +2,7 @@ MATRIXHANDLER
 =============
 
 A small module which adds you to manipulate matrixes in Python3.
-Code is still under development,features such as matrix division and power TBA.
+Code is still under development, features such as matrix division and power TBA.
 
 The code is made for Python3
 
