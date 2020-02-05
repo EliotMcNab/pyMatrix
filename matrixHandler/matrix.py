@@ -23,9 +23,9 @@ class Matrix():
             raise ValueError("Can only affect a Matrix to another Matrix")
 
     def __len__(self):
-        """returns matrix's length
+        """returns matrix's width
             ex : len(aMatrix)"""
-        return len(self.matrix)    
+        return len(self.matrix)
 
     def __str__(self):
         """determines how a matrix is displayed

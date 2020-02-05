@@ -1,18 +1,18 @@
-import setuptools
+from setuptools import setup
+from setuptools import find_packages
 
 with open("DESCRIPTION.txt", "r") as file:
     long_description = file.read()
 
-REQUIREMENTS = [""]
+REQUIREMENTS = []
 
 CLASSIFIERS = [
-    "Development Status :: Early Acess",
-    "Intended Audience :: Developpers, Mathematicians",
-    "Topic :: Mathematics",
+    "Development Status :: 4 - Beta",
     "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
 ]
 
-setuptools.setup(name = "pyMatrix",
+setup(name = "matrixHandler",
       version = "1.0.0",
       description = "a small module which adds a Matrix class to be used as a new data type",
       long_description = long_description,
@@ -20,9 +20,9 @@ setuptools.setup(name = "pyMatrix",
       author = "Eliot McNab",
       author_email = "",
       license = "MIT",
-      packages = setuptools.find_packages,
+      packages = [],
       classifiers = CLASSIFIERS,
       requires = REQUIREMENTS,
       python_requires = ">=3",
-      keywords = "Matrix, Matrixes, Mathemacis, Maths, Algebra"
+      keywords = "Matrix, Matrixes, Mathemacis, Maths, Algebra",
 )

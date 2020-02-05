@@ -1,5 +1,5 @@
-pymatrix
-========
+matrixHandler
+=============
 
 A small module which adds a Matrix class to be used as a new data type.
 Use this to represent and manipulate matrixes in Python
@@ -11,20 +11,26 @@ Installation
 
 Fast Install : 
 
+::
+
     pip install pymatrix
 
 Manual install TBA
 
+::
+
     placeHolder
 
 Install the package :
+
+::
 
     python setup.py install
 
 Example
 -------
 
-```python
+..code::python
 
     from pymatrix import matrix
 
@@ -40,10 +46,8 @@ Example
     # displays the result
     print(multMatrix)
 
-```
-
 Output:
 
->\[14, 12\]
->\[28, 24\]
->\[42, 36\]
+[14, 12]
+[28, 24]
+[42, 36]

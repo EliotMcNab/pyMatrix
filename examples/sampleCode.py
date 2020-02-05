@@ -1,4 +1,4 @@
-from pymatrix import matrix
+from matrixHandler import matrix
 
 # TEST: genere des matrices aleatoires 3 x 3
 matrice1 = matrix.Matrix()
