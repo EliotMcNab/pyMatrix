@@ -1,36 +1,20 @@
-matrixHandler
+MATRIXHANDLER
 =============
 
-A small module which adds a Matrix class to be used as a new data type.
-Use this to represent and manipulate matrixes in Python
+A small module which adds you to manipulate matrixes in Python3.
+Code is still under development, with features such as matrix division and power TBA.
 
 The code is made for Python3
 
-Installation
-------------
+## Installation
 
 Fast Install : 
 
-::
+    `pip install pymatrix`
 
-    pip install pymatrix
+## Example
 
-Manual install TBA
-
-::
-
-    placeHolder
-
-Install the package :
-
-::
-
-    python setup.py install
-
-Example
--------
-
-..code::python
+..code-block::python
 
     from pymatrix import matrix
 
@@ -46,8 +30,10 @@ Example
     # displays the result
     print(multMatrix)
 
-Output:
+## Output:
 
-[14, 12]
-[28, 24]
-[42, 36]
+..code-block::python
+
+    [14, 12]
+    [28, 24]
+    [42, 36]
