@@ -10,11 +10,11 @@ The code is made for Python3
 
 Fast Install : 
 
-    `pip install pymatrix`
+    pip install pymatrix
 
 ## Example
 
-..code-block::python
+```python
 
     from pymatrix import matrix
 
@@ -30,9 +30,10 @@ Fast Install :
     # displays the result
     print(multMatrix)
 
+```
 ## Output:
 
-..code-block::python
+```python
 
     [14, 12]
     [28, 24]
