@@ -18,11 +18,11 @@ Description: MATRIXHANDLER
         
         Fast Install : 
         
-            `pip install pymatrix`
+            pip install pymatrix
         
         ## Example
         
-        ..code-block::python
+        ```python
         
             from pymatrix import matrix
         
@@ -38,9 +38,10 @@ Description: MATRIXHANDLER
             # displays the result
             print(multMatrix)
         
+        ```
         ## Output:
         
-        ..code-block::python
+        ```python
         
             [14, 12]
             [28, 24]
